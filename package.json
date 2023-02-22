@@ -10,15 +10,18 @@
     "@testing-library/user-event": "^13.5.0",
     "chai": "^4.3.7",
     "ethereum-waffle": "^3.4.4",
+    "ethereumjs-abi": "^0.6.8",
     "ethers": "^5.7.2",
     "hardhat": "^2.12.5",
     "install": "^0.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "web3": "^1.8.2"
   },
   "scripts": {
+    "dev": "node scripts/index.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
